@@ -1,0 +1,226 @@
+
+body{
+	color:black;
+	background-color: lightblue;
+	font-size: medium;
+	font-family: 'Roboto', sans-serif;
+}
+#header-nav{
+	background-color: orangered;
+	border: 0;
+	border-radius: 0;
+}
+h1{
+	margin-bottom: 30px;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+
+.navbar-brand{
+	padding-top: 25px;
+}
+.navbar-brand h1{
+	font-family: 'Lora', serif;
+	color: ivory;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px black;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: .75;
+	background-color: none;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+	
+/*  PC view */
+
+@media (min-width: 992px){
+ 
+}
+
+/* Tablet view */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+/*for very small screens or mobile devices */
+@media (max-width: 767px)  {
+	.navbar-brand{
+		padding-top: 25px;
+		height: 80px;
+	}
+	.navbar-brand h1{
+		font-family: 'Lora', serif;
+		color: white;
+		font-size: 5vw;
+		padding-top: 25px;
+	}  
+	 
+}
+.navbar-toggle{
+	position: relative;
+	float: right;
+	padding: 9px 10px;
+	margin-top: 8px;
+	margin-right: 15px;
+	margin-bottom: 8px;
+	background-color: yellow;
+	border: 1px solid black;
+	border-radius: 4px;
+}
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+	color: black;
+	text-align: center;
+}
+#nav-list a:hover{
+	background: lawngreen;
+}
+#nav-list a span{
+	font-size: 1.8em;
+}
+button.navbar-toggle{
+	clear: both;
+}
+button.navbar-toggle, .icon-bar{
+	border: 1px solid red;
+	border-style: grovee;
+}
+#collapsable-nav a{
+	font-size: 1.2em;
+}
+.navbar-brand a{
+	vertical-align: middle;
+}
+
+
+
+
+*{
+  box-sizing: border-box;
+}
+h2{
+  margin-bottom: 30px;
+  font-size: 40px;
+  background-color: peru;
+  text-align: center;
+  color: seashell;
+}
+.box1{
+  width: 100%;
+}
+.content-name{
+  overflow: none;
+  text-align: center;
+  border: 4px solid black;
+  width: 150px;
+  height: 50px;
+  padding: 5px;
+  float: right;
+  margin-right: 36px;
+  margin-top: 0px;
+  font-weight: bold;
+  position: relative;
+}
+.name1{
+  background-color: lightcyan;
+  color: darkmagenta;
+  font-size: 30px;
+}
+.content1{
+  border: 5px solid black;
+  width: 90%;
+  height: auto;
+  margin: 2.5%;
+  color: black
+  font-size: 25px;
+  padding: 2%;
+  padding-top: 55px;
+  background-color: darkorange;
+}
+.box2{
+  width: 100%;
+  overflow: none;
+}
+.name2{
+  background-color: lightgreen;
+  color: blueviolet;
+  font-size: 30px;
+}
+.content2{
+  border: 5px solid black;
+  width: 90%;
+  height: auto;
+  margin: 2.5%;
+  color: black
+  font-size: 25px;
+  padding: 2%;
+  padding-top: 55px;
+  background-color: thistle;
+}
+.box3{
+  width: 100%;
+  overflow: none;
+}
+.name3{
+  background-color: mediumvioletred;
+  color: yellow;
+  font-size: 30px;
+}
+.content3{
+  border: 5px solid black;
+  width: 90%;
+  height: auto;
+  margin: 2.5%;
+  color: black
+  font-size: 25px;
+  padding: 2%;
+  padding-top: 55px;
+  background-color: lawngreen;
+}
+/*  PC view */
+
+@media (min-width: 992px) {
+ 
+  .col-lg-4 {
+    width: 33.33%;
+    float: left;
+  }
+}
+
+/* Tablet view */
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+  .col-md-6 {
+    width: 50%;
+    float: left;
+  }
+  .col-md-12 {
+    width: 100%;
+    float: left;
+  }
+  .name3{
+
+    margin-right: 72.5px;
+  }
+  .box3{
+    width: 200%;
+  }
+
+}
+/*for very small screens or mobile devices */
+@media (max-width: 767px)  {
+  
+  .col-sm-12 {
+    float: left;
+    width: 100%;
+  }
+  .content-name{
+    margin-right: 57.5px;
+  }
+}
